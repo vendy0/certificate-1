@@ -1,0 +1,150 @@
+You should have a page title in an h1 element with an id of title
+You should have a short explanation in a p element with an id of description
+You should have a form element with an id of survey-form
+Inside the form element, you are required to enter your name in an input field that has an id of name and a type of text
+Inside the form element, you are required to enter your email in an input field that has an id of email
+If you enter an email that is not formatted correctly, you will see an HTML5 validation error
+Inside the form, you can enter a number in an input field that has an id of number
+The number input should not accept non-numbers, either by preventing you from typing them or by showing an HTML5 validation error (depending on your browser).
+If you enter numbers outside the range of the number input, which are defined by the min and max attributes, you will see an HTML5 validation error
+For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label"
+For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field
+Inside the form element, you should have a select dropdown element with an id of dropdown and at least two options to choose from
+Inside the form element, you can select an option from a group of at least two radio buttons that are grouped using the name attribute
+Inside the form element, you can select several fields from a series of checkboxes, each of which must have a value attribute
+Inside the form element, you are presented with a textarea for additional comments
+Inside the form element, you are presented with a button with id of submit to submit all the inputs
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
+
+
+
+Vous devriez avoir un titre de page dans un élément h1 avec un identifiant de titre
+Vous devriez avoir une courte explication dans un élément p avec un identifiant de description
+Vous devriez avoir un élément de formulaire avec un identifiant de formulaire d'enquête
+À l'intérieur de l'élément de formulaire, vous devez saisir votre nom dans un champ de saisie comportant un identifiant de nom et un type de texte.
+À l'intérieur de l'élément de formulaire,
+vous devez saisir votre email dans un champ de saisie qui a un identifiant d'e-mail
+Si vous saisissez un email qui n'est pas correctement formaté, vous verrez une erreur de validation HTML5
+À l'intérieur du formulaire, vous pouvez saisir un numéro dans un champ de saisie portant l'identifiant d'un numéro.
+La saisie numérique ne doit pas accepter les non-chiffres,
+soit en vous empêchant de les saisir, soit en affichant une erreur de validation HTML5 (selon votre navigateur).
+Si vous saisissez des nombres en dehors de la plage de saisie numérique, définie par les attributs min et max, vous verrez une erreur de validation HTML5.
+Pour les champs de saisie du nom, de l'e-mail et du numéro,
+vous pouvez voir les éléments d'étiquette correspondants dans le formulaire, qui décrivent l'objectif de chaque champ avec les identifiants suivants : id="name-label", id="email-label" et id="number-label"
+Pour les champs de saisie du nom, de l'adresse e-mail et du numéro, vous pouvez voir un texte d'espace réservé qui donne une description ou des instructions pour chaque champ.
+À l'intérieur de l'élément de formulaire,
+vous devriez avoir un élément déroulant de sélection avec un identifiant de liste déroulante et au moins deux options parmi lesquelles choisir
+À l'intérieur de l'élément de formulaire, vous pouvez sélectionner une option parmi un groupe d'au moins deux boutons radio regroupés à l'aide de l'attribut name.
+À l'intérieur de l'élément de formulaire, vous pouvez sélectionner plusieurs champs parmi une série de cases à cocher,
+dont chacun doit avoir un attribut de valeur
+À l'intérieur de l'élément de formulaire, une zone de texte vous est présentée pour des commentaires supplémentaires
+À l'intérieur de l'élément de formulaire, un bouton avec l'identifiant de soumission vous est présenté pour soumettre toutes les entrées.
+Remplissez les user stories et réussissez tous les tests ci-dessous pour mener à bien ce projet. Donnez-lui votre propre style personnel.
+Bon codage !
+
+Remarque : Assurez-vous d'ajouter <link rel="stylesheet" href="styles.css"> dans votre code HTML pour lier votre feuille de style et appliquer votre CSS.
+
+
+
+
+
+1. You should have an h1 element with an id of title.
+Waiting:2. Your #title should not be empty.
+Waiting:3. You should have a p element with an id of description.
+Waiting:4. Your #description should not be empty.
+Waiting:5. You should have a form element with an id of survey-form.
+Waiting:6. You should have an input element with an id of name.
+Waiting:7. Your #name should have a type of text.
+Waiting:8. Your #name should require input.
+Waiting:9. Your #name should be a descendant of #survey-form.
+Waiting:10. You should have an input element with an id of email.
+Waiting:11. Your #email should have a type of email.
+Waiting:12. Your #email should require input.
+Waiting:13. Your #email should be a descendant of #survey-form.
+Waiting:14. You should have an input element with an id of number.
+Waiting:15. Your #number should be a descendant of #survey-form.
+Waiting:16. Your #number should have a type of number.
+Waiting:17. Your #number should have a min attribute with a numeric value.
+Waiting:18. Your #number should have a max attribute with a numeric value.
+Waiting:19. You should have a label element with an id of name-label.
+Waiting:20. You should have a label element with an id of email-label.
+Waiting:21. You should have a label element with an id of number-label.
+Waiting:22. Your #name-label should contain text that describes the input.
+Waiting:23. Your #email-label should contain text that describes the input.
+Waiting:24. Your #number-label should contain text that describes the input.
+Waiting:25. Your #name-label should be a descendant of #survey-form.
+Waiting:26. Your #email-label should be a descendant of #survey-form.
+Waiting:27. Your #number-label should be a descendant of #survey-form.
+Waiting:28. Your #name should have a placeholder attribute and value.
+Waiting:29. Your #email should have a placeholder attribute and value.
+Waiting:30. Your #number should have a placeholder attribute and value.
+Waiting:31. You should have a select field with an id of dropdown.
+Waiting:32. Your #dropdown should have at least two selectable (not disabled) option elements.
+Waiting:33. Your #dropdown should be a descendant of #survey-form.
+Waiting:34. You should have at least two input elements with a type of radio (radio buttons).
+Waiting:35. You should have at least two radio buttons that are descendants of #survey-form.
+Waiting:36. All your radio buttons should have a value attribute and value.
+Waiting:37. All your radio buttons should have a name attribute and value.
+Waiting:38. Every radio button group should have at least 2 radio buttons.
+Waiting:39. You should have at least two input elements with a type of checkbox (checkboxes) that are descendants of #survey-form.
+Waiting:40. All your checkboxes inside #survey-form should have a value attribute and value.
+Waiting:41. You should have at least one textarea element that is a descendant of #survey-form.
+Waiting:42. You should have an input or button element with an id of submit.
+Waiting:43. Your #submit should have a type of submit.
+Waiting:44. Your #submit should be a descendant of #survey-form.
+
+
+
+1. Vous devriez avoir un élément h1 avec un identifiant de titre.
+En attente :2. Votre #titre ne doit pas être vide.
+En attente :3. Vous devriez avoir un élément p avec un identifiant de description.
+En attente :4. Votre #description ne doit pas être vide.
+En attente :5. Vous devriez avoir un élément de formulaire avec un identifiant de formulaire d'enquête.
+En attente :6. Vous devriez avoir un élément d'entrée avec un identifiant de nom.
+En attente : 7. Votre #nom doit avoir un type de texte.
+En attente : 8. Votre #nom devrait nécessiter une saisie.
+En attente : 9. Votre #nom doit être un descendant de #survey-form.
+En attente : 10. Vous devriez avoir un élément d'entrée avec un identifiant de courrier électronique.
+En attente : 11. Votre #email doit avoir un type d'e-mail.
+En attente : 12. Votre #email devrait nécessiter une saisie.
+En attente : 13.
+Votre #email doit être un descendant de #survey-form.
+En attente : 14. Vous devriez avoir un élément d'entrée avec un identifiant de nombre.
+En attente : 15. Votre #numéro doit être un descendant de #survey-form.
+En attente : 16. Votre #numéro doit avoir un type de numéro.
+En attente : 17. Votre #number doit avoir un attribut min avec une valeur numérique.
+En attente : 18.
+Votre #number doit avoir un attribut max avec une valeur numérique.
+En attente : 19. Vous devriez avoir un élément label avec un identifiant de name-label.
+En attente : 20. Vous devriez avoir un élément label avec un identifiant email-label.
+En attente : 21. Vous devriez avoir un élément label avec un identifiant number-label.
+En attente : 22. Votre #name-label doit contenir un texte qui décrit l'entrée
+.
+En attente : 23. Votre #email-label doit contenir un texte qui décrit la saisie.
+En attente : 24. Votre #numéro-étiquette doit contenir un texte qui décrit l'entrée.
+En attente : 25. Votre #name-label doit être un descendant de #survey-form.
+En attente : 26. Votre #email-label doit être un descendant de #survey-form.
+En attente : 27. Votre #numéro-
+label doit être un descendant de #survey-form.
+En attente : 28. Votre #nom doit avoir un attribut et une valeur d'espace réservé.
+En attente : 29. Votre #email doit avoir un attribut et une valeur d'espace réservé.
+En attente : 30. Votre #numéro doit avoir un attribut et une valeur d'espace réservé.
+En attente : 31. Vous devriez avoir un champ de sélection avec un identifiant de liste déroulante.
+En attente :32.
+Votre #dropdown doit avoir au moins deux éléments d'option sélectionnables (non désactivés).
+En attente :33. Votre #dropdown doit être un descendant de #survey-form.
+En attente :34. Vous devez avoir au moins deux éléments d'entrée avec un type de radio (boutons radio).
+En attente : 35. Vous devriez avoir au moins deux boutons radio descendants de #survey-form.
+En attente :36.
+Tous vos boutons radio doivent avoir un attribut de valeur et une valeur.
+En attente :37. Tous vos boutons radio doivent avoir un attribut de nom et une valeur.
+En attente :38. Chaque groupe de boutons radio doit avoir au moins 2 boutons radio.
+En attente : 39. Vous devez avoir au moins deux éléments d'entrée avec un type de case à cocher (cases à cocher) qui sont des descendants de #survey-form.
+En attente : 40. Toutes vos cases à cocher dans #survey-form doivent avoir un attribut de valeur et une valeur.
+En attente : 41. Vous devez avoir au moins un élément textarea qui est un descendant de #survey-form.
+En attente : 42. Vous devriez avoir un élément d'entrée ou de bouton avec un identifiant de soumission.
+En attente : 43. Votre #submit doit avoir un type de soumission.
+En attente : 44.
+Votre #submit doit être un descendant de #survey-form.
