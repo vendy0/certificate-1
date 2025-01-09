@@ -1,56 +1,125 @@
-<!DOCTYPE html>
+<!-- @format -->
+
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>
-      Vous devriez avoir un titre de page dans un �l�ment h1 avec un identifiant
-      de titre
-    </h1>
-    <p>
-      Vous devriez avoir une courte explication dans un �l�ment p avec un
-      identifiant de description
-    </p>
-    <section>
-      <form action="">
-        <fieldset>
-          <legend>Informations personnelles</legend>
-          <label for="name">Nom</label
-          ><input
-            type="text"
-            name="name"
-            id="name-label"
-            placeholder="Entrez votre nom"
-            value="name"
-            required
-          />
-          ><input
-            type="number"
-            name="age"
-            min="0"
-            max="100"
-            id="number-label"
-            placeholder="Entrez votre age"
-            value="age"
-            required
-          />
-          ><input
-            type="text"
-            name="email"
-            id="email-label"
-            placeholder="Entrez votre email"
-            required
-          />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>
+			Vous devriez avoir un titre de page dans un �l�ment h1 avec un
+			identifiant de titre
+		</h1>
+		<p>
+			Vous devriez avoir une courte explication dans un �l�ment p avec un
+			identifiant de description
+		</p>
+		<section>
+			<form action="" id="survey-form">
+				<fieldset>
+					<legend>Informations personnelles</legend>
+					<br />
+					<br />
+					<label for="name">Nom</label
+					><input
+						type="text"
+						name="name"
+						id="name-label"
+						placeholder="Type your name"
+						required />
+					<br />
+					<br />
+					<label for="name">Age</label
+					><input
+						type="number"
+						name="age"
+						min="0"
+						max="100"
+						id="number-label"
+						placeholder="Type your age"
+						value="age"
+						required />
+					<br />
+					<br />
+					<label for="name">Email</label
+					><input
+						type="text"
+						name="email"
+						id="email-label"
+						placeholder="Type your email"
+						required />
 
-          <input type="checkbox" name="" id="" />
+					<br />
+					<br />
 
-          <button type="submit">Soumettre</button>
-        </fieldset>
-      </form>
-    </section>
-  </body>
+					<label for="dropdown">Are you married ? </label> <br />
+					<select
+						name="droptown"
+						id="dropdown"
+						form="Carform"
+						placeholder="Êtes-vous marié ?">
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+
+					<br />
+					<br />
+					<legend>Quelle est votre nationalité ?</legend>
+					<label for="nationality"
+						><input
+							type="radio"
+							name="nationality"
+							id="nationality"
+							value="nationality"
+							checked="checked" />Haitien</label
+					>
+					<label for="nationality"
+						><input
+							type="radio"
+							name="nationality"
+							id="nationality"
+							value="french" />Français</label
+					>
+					<label for="nationality"
+						><input
+							type="radio"
+							name="nationality"
+							id="nationality"
+							value="japaneese" />Japonais</label
+					>
+					<label for="nationality"
+						><input
+							type="radio"
+							name="nationality"
+							id="nationality"
+							value="others" />Autres</label
+					>
+
+					<br />
+					<br />
+
+					<input type="checkbox" name="" id="" />
+
+					<br />
+					<br />
+
+					<textarea
+						name=""
+						id=""
+						cols="30"
+						rows="10"
+						placeholder="..."></textarea>
+
+					<br />
+					<br />
+
+					<button type="submit" id="submit">Soumettre</button>
+					<br />
+				</fieldset>
+			</form>
+		</section>
+	</body>
 </html>
